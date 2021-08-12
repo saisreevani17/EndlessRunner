@@ -3,14 +3,6 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
-{
-    [Header("Enemy Stats")]
-    [SerializeField] float health = 100;  //health
-    [SerializeField] int scoreValue = 150;
-
-    [Header("Shooting")]
-    float shotCounter; //counting shots by enemy
     [SerializeField] float minTimeBetweenShots = 0.2f; //min time b/w two shots
     [SerializeField] float maxTimeBetweenShots = 3f; //max time b/w two shots
     [SerializeField] GameObject projectile;
